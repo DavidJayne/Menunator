@@ -1,0 +1,16 @@
+---
+dimensions:
+  x: 1330
+  y: 720
+menu:
+  size: 24
+  font: fonts/data-latin.ttf
+  color: [255. 255, 255]
+  vert_pad: 5
+  indent: 10
+menu_title:
+  size: 35
+  font: fonts/data-latin.ttf
+  color: [255. 255, 255]
+  vert_pad: 25
+

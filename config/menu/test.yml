@@ -1,0 +1,26 @@
+---
+label: Test Menu
+name: testmenu
+items: 
+  - 
+    type: command
+    label: Super Mario Bros
+    command: /home/pi/retroarch/bin/retroarch -L /home/pi/retroarch/cores/nestopia_libretro.so "/home/pi/roms/test/Super Mario Bros. (JU) [!].nes"
+  - 
+    type: command
+    label: Truxton
+    command: /home/pi/retroarch/bin/retroarch -L /home/pi/retroarch/cores/picodrive_libretro.so "/home/pi/roms/test/Truxton (JU) [!].bin"
+  - 
+    type: command
+    label: Item 2
+    command: ls /etc/
+  - 
+    type: event
+    label: Item 3
+    event: MENU_QUIT
+  - 
+    type: dir
+    dir: config/test
+    mask: "*"
+    command: cat |file|
+
